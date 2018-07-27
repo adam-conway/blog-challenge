@@ -11,6 +11,12 @@
     </div>
   <% end %>
 
+  <%= form.label 'Article Name', class: ''%><br>
+  <%= form.text_field :name %>
+
+  <%= form.label 'Article Body', class: ''%><br>
+  <%= form.text_area :body %>
+
   <div class="actions">
     <%= form.submit %>
   </div>
